@@ -21,6 +21,13 @@
 #endif
 #ifndef SERDE_H
 #define SERDE_H
+
+#define SERDE_VERSION_MAJOR 0
+#define SERDE_VERSION_MINOR 1
+#define SERDE_VERSION_PATCH 0
+#define SERDE_VERSION "0.1.0"
+
+
 #if defined(__BYTE_ORDER__) && (__BYTE_ORDER__ != __ORDER_LITTLE_ENDIAN__)
 #error "serde.h targets little-endian architectures only."
 #endif
