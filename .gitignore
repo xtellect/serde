@@ -1,0 +1,10 @@
+example
+*.o
+*.a
+.odr.c
+.odr.o
+.noavx.o
+.ex
+*.arena
+*.swp
+.DS_Store
